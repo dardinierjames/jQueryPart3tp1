@@ -1,0 +1,64 @@
+.container{
+    display: block;
+    background: #333333;
+    padding: 50px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #d9534f;
+}
+.marginTop{
+    margin-top: 40px;
+}
+.marginTop2{
+    margin-top: 60px;
+}
+.btnCom{
+    background: #d9534f;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    padding: 10px;
+    border-radius: 8px;
+}
+.btnVal{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+input{
+    padding: 8px;
+}
+#bet{
+    transition: 1s;
+    visibility: hidden;
+    opacity: 0;
+}
+.flex{
+    display: flex;
+}
+.marginLeft{
+    color: #d9534f;
+    margin-left: 50px;
+}
+.count-leave{
+    transform: translateY(0);
+    opacity: 1;
+}
+.count-leave-active{
+    transition: 1s;
+    transform: translateY(-100%);
+    opacity: 0;
+}
+.count-enter{
+    transform: translateY(100%);
+    opacity: 0;
+}
+.count-enter-active{
+    transition: 1s;
+    transform: translateY(0);
+    opacity: 1;
+}
